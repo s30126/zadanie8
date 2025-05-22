@@ -24,6 +24,9 @@ public abstract class Zwierze {
 
     public abstract String srodowiskoNaturalne();
 
-    public void wyswietlInformacje(){}
+    public String wyswietlInformacje() {
+        return nazwa + ", " + wiek + " lat, " + wydajDzwiek() + ", " + poruszajSie();
+    }
+
 
 }
